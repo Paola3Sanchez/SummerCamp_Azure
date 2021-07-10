@@ -23,3 +23,11 @@ git commit
 ```
 Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
 - [ ] \(Optional) Abre una propuesta de seguimiento
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+puts markdown.to_html
+```
